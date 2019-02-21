@@ -43,25 +43,25 @@ public class Main{
 				    System.exit(0);
 					
 			       case 1:
-				     System.out.print("Enter Number:");
-					 Num=Scan.nextInt();
-				     Stack1.push(Num);
+				   System.out.print("Enter Number:");
+				   Num=Scan.nextInt();
+				   Stack1.push(Num);
 				   break;
 				   
-				   case 2:
-				     Stack1.pop();
-					 break;
+			       case 2:
+			           Stack1.pop();
+				   break;
 					
-                   case 3:
-                     Stack1.peek();
-                     break;
+                  	       case 3:
+                                   Stack1.peek();
+                                   break;
 
-                   case 4:
-                     Stack1.printStack();
-                     break;
+                   	       case 4:
+                                  Stack1.printStack();
+                                  break;
                   
-                   default:
-                     System.out.println("\t\t\tEnter Proper Choice");   				   
+                   		default:
+                                    System.out.println("\t\t\tEnter Proper Choice");   				   
                      				   
                }// end switch
  			   
