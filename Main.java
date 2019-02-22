@@ -6,9 +6,10 @@ import java.util.Scanner;
   Date: 21 feb,2019
   Language: java		  
   Number Of File:3
-  Files Name:Main.java,Node.java,singly_list.java  
+  Files Name:Main.java,Node.java,Stack.java  
   
-  Description: Basic Singly Linked List
+  Description: Stack 
+              follows "last in first out" rule
   
   Step 1: Compile Main java File Using Command Given Below
            java -d . Node.java          //hit enter
